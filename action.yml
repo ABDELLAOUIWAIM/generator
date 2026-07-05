@@ -1,18 +1,18 @@
 name:"generator"
-acthor:"wiam abd"
+aucthor:"wiam abd"
 description:"generates"
 runs:
   using: "docker"
   image: "Dockerfile"
 branding: 
   icon:"git-branch"
-  colore:"red"
+  color:"red"
 inputs:
   email:
-    description: the commiter's email address
+    description: the committer's email address
     required: True
-    default: ${{ github.acthor}}@localhost
+    default: ${{ github.aucthor}}@localhost
   name:
-    description: The commitier's name 
+    description: The committier's name 
     required: True
-    default: ${{github.acthor}}
+    default: ${{github.aucthor}}
